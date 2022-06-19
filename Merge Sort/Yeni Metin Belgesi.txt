@@ -1,0 +1,19 @@
+16, 21, 11, 8, 12, 22 Merge Sort ile duzenleyelim.
+
+Adim-1: Diziyi 2'ye ayiralim.
+
+[16, 21, 11], [8, 12, 22]
+
+Adim-2: Olusan diziyi kendi icinde 2'ye ayiralim.
+
+[16, 21], [11], [8, 12], [22]
+
+Adim-3: Simdi de ayirdigimiz dizileri kendi aralarinda siralayarak birlestirelim.
+
+[11], [16, 21], [8, 12], [22]
+
+[11, 16, 21], [8, 12, 22]
+
+[8, 11, 12, 16, 21, 22]
+
+Big-O gosterimi: n boyutlu diziyi surekli 2'ye ayirdigimiz icin Worst Case'i : O(n*log(n))
