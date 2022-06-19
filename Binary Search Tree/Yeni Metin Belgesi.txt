@@ -1,0 +1,70 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Adim-1: 		 7		-> Kok Dugum
+
+
+
+Adim-2:			 7 		-> 5 eklendi 7>5 old 7'nin soluna ekledik
+		      5
+
+
+
+Adim-3:			 7		-> 1 eklendi 7<1 ve 5>1 old 5'in soluna ekledik
+		      5
+		   1
+
+
+
+Adim-4:			 7		-> 8 eklendi 7<8 old 7'nin sagina ekledik
+		      5     8
+		   1
+
+
+
+Adim-5:			7		-> 3 eklendi 7>3 ve 5>3 5'in soluna eklenecek ancan orda 1 var. 3>1 old 1'in sagina ekledik
+		      5     8
+		   1
+		      3
+
+
+
+Adim-6:			 7		-> 6 eklendi 7>6 ve 5<6 old 7'nin soluna 5'in sagina ekledik
+		     5       8
+		  1     6
+		    
+		    3
+
+
+
+Adim-7:			7		-> 0 ekledik. 7>0 7'nin soluna, 5>0 5'in soluna, 1>0 old 1'in de soluna ekledik
+		    5       8
+		 1     6
+
+	       0    3
+
+
+
+Adim-8:			7		-> 9 ekledik 9>7 7'nin sagina, 8<9 old 8'in sagina ekledik
+		    5       8
+		 1     6       9
+
+	      0    3
+
+
+
+Adim-9:			7		-> 4 ekledik 7>4 7'nin soluna, 5>4 5'in soluna, 1<4 1'in sagina, 3<4 old 3'un sagina ekledik
+		     5     8
+		  1     6     9
+
+	       0    3
+		        4
+
+
+
+Adim-10:		7		-> 2 ekledik 7>2 7'nin soluna, 5>2 5'in soluna, 1<2 1'in sagina, 3>2 old 3'un soluna ekledik
+		    5       8
+		 1     6       9
+	      0     3
+
+		 2     4
+
