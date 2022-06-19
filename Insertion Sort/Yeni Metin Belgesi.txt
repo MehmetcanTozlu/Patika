@@ -1,0 +1,24 @@
+22, 27, 16, 2, 18 6 dizisini Insertion Sort ile duzenleyelim.
+
+Adim-1: 2, 27, 16, 22, 18, 6
+
+Adim-2: 2, 6, 16, 22, 18, 27
+
+Adim-3: 2, 6, 16, 18, 22, 27
+
+Big-O'ya gore Insertion Sort;
+n boyutlu dizi n defa gezileceginden Worst-Cast O(n^2) olur.
+
+Best Case: Aradigimiz sayinin ilk basta olmasi O(n)'e goturur.
+Average Case: Aradigimiz sayinin ortada olmasi O(n^2)'ye goturur.
+Worst Case: Aradigimiz sayi dizinin sonunda olmasi veya hic olmamasi O(n^2)'ye goturur.
+
+18 sayisi dizinin ortasinda oldugundan Average Case'e girer.
+
+
+Örnek: [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+Adim-1: 2, 3, 5, 8, 7, 9, 4, 15, 6
+Adim-2: 2, 3, 4, 8, 7, 9, 5, 15, 6
+Adim-3: 2, 3, 4, 5, 7, 9, 8, 15, 6
+Adim-4: 2, 3, 4, 5, 6, 9, 8, 15, 7
