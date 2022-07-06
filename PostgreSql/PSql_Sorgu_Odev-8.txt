@@ -1,0 +1,57 @@
+ODEV-8
+
+test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+
+
+
+
+SELECT * FROM employee
+
+3	"Gard Schreurs"	"2020-02-03"	"gschreurs2@theatlantic.com"
+5	"Gabbie Wooles"		"gwooles4@lulu.com"
+9	"Will Widger"	"2015-03-13"	"wwidger8@hhs.gov"
+11	"Shane Syrad"		"ssyrada@cocolog-nifty.com"
+12	"Alvie Glenister"	"2005-07-30"	"aglenisterb@icio.us"
+13	"Homerus Elcoux"		"helcouxc@ning.com"
+15	"Morey Bryant"	"1971-05-29"	"mbryante@economist.com"
+16	"Chelsey Ragbourn"	"1997-03-25"	"cragbournf@msn.com"
+17	"Bianca Brotherwood"	"2003-04-01"	"bbrotherwoodg@netvibes.com"
+18	"Karon Guyton"	"1963-10-22"	"kguytonh@php.net"
+19	"Merill Kleinert"		
+20	"Tabbatha Botfield"	"1982-09-15"	"tbotfieldj@jiathis.com"
+21	"Elvera Poker"		"epokerk@drupal.org"
+22	"Ag Spinetti"		"aspinettil@123-reg.co.uk"
+23	"Shari Allder"	"2005-11-23"	"sallderm@ocn.ne.jp"
+24	"Barr Scarman"	"1966-12-09"	
+26	"Gunner Kasparski"	"1946-09-27"	"gkasparskip@people.com.cn"
+27	"Winfred Burlingame"	"1945-10-17"	"wburlingameq@symantec.com"
+28	"Kiel Jeenes"	"1967-12-22"	
+29	"Wylie Trenear"	"1939-10-05"	"wtrenears@a8.net"
+30	"Zebulen Hagergham"	"1989-11-30"	"zhagerghamt@economist.com"
+31	"Ronny Roux"	"1992-10-21"	"rrouxu@psu.edu"
+32	"Manny Flynn"		"mflynnv@yellowbook.com"
+33	"Madonna Halpine"	"1982-09-27"	"mhalpinew@deviantart.com"
+34	"Shannen Salliere"	"1982-06-17"	"ssallierex@intel.com"
+35	"Meghann Hune"		"mhuney@jiathis.com"
+36	"Leigh Doick"	"2014-08-11"	"ldoickz@nifty.com"
+37	"Kory Desforges"	"2001-09-01"	
+38	"Valery Jakubowicz"	"1984-09-29"	"vjakubowicz11@pagesperso-orange.fr"
+39	"Barnebas Longstreeth"	"1970-04-01"	"blongstreeth12@edublogs.org"
+40	"Lorita Flasby"	"2002-05-11"	"lflasby13@ustream.tv"
+41	"Gabby Fawdry"		"gfawdry14@unblog.fr"
+42	"Tomlin Gartland"		"tgartland15@house.gov"
+43	"Carlita Quodling"		"cquodling16@edublogs.org"
+44	"Perice Dax"	"1962-08-26"	"pdax17@icio.us"
+45	"Mirabelle Roarty"	"1959-06-21"	"mroarty18@miitbeian.gov.cn"
+46	"Damian Vynoll"	"1952-03-06"	"dvynoll19@time.com"
+47	"Kaja Steele"	"1953-02-19"	"ksteele1a@amazon.co.jp"
+48	"Maxie Crannell"		
+49	"Case Newlan"		"cnewlan1c@ezinearticles.com"
+1	"Ali Ali"	"1950-07-11"	"scliffe0@github.io"
+10	"Ayse Ayse"	"1989-05-14"	"spargeter9@zimbio.com"
+25	"Can Can"	"1988-08-26"	"sbryanto@tripadvisor.com"
+7	"Kemal Kml"	"1933-04-13"	"ykonertz6@dagondesign.com"
+50	"Mustafa Yılmaz"	"2015-07-16"	"llorenzin1d@issuu.com"
